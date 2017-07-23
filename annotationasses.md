@@ -1,1 +1,20 @@
-test
+## On Failure ##
+The most interesting annotation I read this week came from [sarahmcole](https://hyp.is/LYrs9GNqEeelIM9HX2v_fg/www.plannedobsolescence.net/generous-thinking-introduction/) in response to Kathleen Fitzpatrick's article on [generous thinking](http://www.plannedobsolescence.net/generous-thinking-introduction/#more-2828). 
+
+*"This may be why "productive fails" aren't encouraged in other classes. At least, not explicitly. It may also have to do with the fact that failed products are rarely handed in, and most classes (and academic journals) deal with the finished product, not the process. Thus a digital environment is a great place to start encouraging productive failure and critical humility."* -sarahmcole
+
+
+Failure at the academic level is an especially interesting topic to me, because it's something that I'm pretty darn familiar with. As an undergraduate student I've been pretty successful, if you can measure success in terms of grades, but prior to starting university I experienced a massive public and very personal failure.
+
+![FAIL](https://farm3.staticflickr.com/2610/4020584983_0ec7ef97d7_z.jpg?zz&#x3D;1)
+
+When I was fifteen, I dropped out of highschool. Talking about this now, over ten years later and almost finished my undergrad, is a lot easier than it was even three years ago, when I felt like this 'failure' would define my entire life. The circumstances that led to me leaving highschool at such a young age have a lot do do with the reprocussions that come from failing. When I failed 9th grade math, everyone around me, my teachers, my parents, seemed flummoxed - what do you do with a seemingly intelligent, capable, person when they fail? I think, as a society, we condition people as much as possible to be self-sufficient. Failure, in a sense, constitutes breaking this social contract.
+
+But as a student, failure is pretty much inevitable, even if the scale of that failure varies. What's less predictable is how open we are about our failures. I've learned more from the 'failure' of leaving high school at an early age that the actual content of any class I've ever taken. This failure has informed the way I [approach academics](https://www.theguardian.com/commentisfree/2006/aug/20/comment.alevels). It was the ultimate productive fail. As sarahmcole mentioned in her annotation, "productive fails" are not encouraged very often in an educational setting. We are instructed to ask for help, certainly, but the end goal is almost always to succeed (often by any means possible) and be judged by the end product, rather than the process.
+
+![Studying](https://farm3.staticflickr.com/2916/13681294573_e1cc6c5d3b_b.jpg)
+
+To be fair, failure in and of itself doesn't always constitute learning. I think you do have to have [strategies](https://hbr.org/2011/04/strategies-for-learning-from-failure) for making the most out of instances of failure (and as sarahmcole suggests, the [digitization of failure](https://dzone.com/articles/importance-documenting-failure) could be part of that). [Failing in public](https://www.theguardian.com/education/2016/apr/30/cv-of-failures-princeton-professor-publishes-resume-of-his-career-lows) and/or publicizing failure could be an important step not just for those seeking to learn from their failure, but also to normalize the idea of failure as a process. 
+
+There's a lot of hokey stuff out there about failing before you can truly succeed etc etc, but speaking as someone who's been through a failure that turned my life upside down and left me with a challenge that often felt insurmountable, those kind of platitudes don't hold much weight. Failing sucks. It's not a spiritual experience, but it is normal, and it is relative. In my case, accepting a failure as the end product can ultimately be more informative than the process of trying to overcome the same thing over and over again, without success. I'm in university now, but I'll probably never get a highschool diploma, and I'm okay with that. Have I failed? Yep, totally. But I'm better for it. 
+

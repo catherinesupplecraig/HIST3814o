@@ -1,3 +1,49 @@
+# Fail Log: Module 2 - 2017-07-23 #
+
+### Exercise 1: The Dream Case ###
+* I searched the Commonwealth War Graves Commission for examples of well-structured data and downloaded my results to analyze the .csv file.
+* I decided to search for a few relatives I know died in the second world war, but was only able to find one. 
+* The 'additional information' section of the .csv confirmed that this was my great uncle Arthur William Craig, *"Son of William A. Craig and Louisa A. Craig, of Ottawa; husband of Jean Craig, of Ottawa."* 
+I recognized these family members from my Dad's extensive genelogy work - Pretty cool!
+* Something to note: I found limiting the other search terms when I knew the full name of the person I was looking for was helpful. Oddly enough, the less specific I was, the more likely I was to find an interesting result.
+* Notes from this exercise are in my github repository [here](https://github.com/catherinesupplecraig/HIST3814o/blob/master/m2e1.md) - the formatting on this file looks a bit weird in github. Not sure if that's something I messed up when I was writing it in Nano or not.
+
+### Exercise 2: Wget ###
+* I ran through Ian Milligan's [exercise](https://programminghistorian.org/lessons/automated-downloading-with-wget#step-two-learning-about-the-structure-of-wget--downloading-a-specific-set-of-files) for learning the ins and outs of wget, and successfully downloaded the http://activehistory.ca/papers/ directory!
+* I used wget to grab a decade's worth of issues of the Shawville Equity, but hit a bit of a snag while doing so. I’m pretty sure the command I used was fine (I scrolled down to see the example), and everything looked okay on the screen - I didn’t get any error messages or anything, but the files never showed up the in directory that I created. 
+* I decided to try a test with just one year and it worked totally fine so I ended up using the decade by decade method `wget http://collections.banq.qc.ca:8008/jrn03/equity/src/2001/ -A .txt -r --no-parent -nd –w 2 --limit-rate=20k` etc. 
+* Later I went back and tried using the command again to grab a whole (different) decade, and it worked fine this time. I suspect that the reason I encounted a glitch the first time was because the decade I picked was 2000-2010. I knew I would have to go and grab 2010 using the command for one year anyway, but maybe 200* caused some kind of glitch? I may play around with this again and see what happens. 
+*  `CTRL + C` is the command I never knew I needed…this would have been really helpful to know when I kept screwing up on the command line last week by using the arrow keys when I shouldn’t have!
+
+### Exercise 3: TEI ###
+* I began the process of transcribing and marking up a page from the abolistionist pamphlet "Negro Slavery" by Zachary Macaulay (found at recoveredhistories.org)
+* I downloaded Sublime Text to do this
+* I left this exercise last, since it was mentioned that we could choose to do it at a later time if necessary, and ended up cutting my attempt short after realizing that the page I had selected (and already transcribed) didn't have any names, specific locations, and only one claim...so productive fail and lesson learned for next time, I need to make sure to read through all the instructions *carefully* before starting the work!
+
+### Exercise 4: APIs ###
+* I added `&fmt=json` to the end of a search query at the Canadiana Discovery Portal to see the results in .json format
+* I ran through the exercise using [Ian Milligan's Oochim # retrieval program](https://ianmilligan.ca/api-example-sh/) to pull the results from a Canadiana search for 'Ottawa'
+* I lodged my work history for this exercise in my github repository [here](https://github.com/catherinesupplecraig/HIST3814o/blob/master/dhbox-July22.md)
+* This exercise was the most straightforward for me. No hiccups!
+
+### Exercise 5: Mining Twitter ###
+* I created a twitter account (which I'll keep private) and installed twarc as an application on twitter and also on my DH Box.
+* I was able to run the wget command to retreive tweets with the hashtag #idlenomore and #cdnpoli with no major issues
+* I ultimately hit the same snag with json2csv that everyone else did. My programming-savvy boyfriend has been following along with some of the exercises for fun, and he actually tried the Mining Twitter exercise earlier in the week using his own program on MatLab, inspired by [this post](https://blogs.mathworks.com/loren/2014/06/04/analyzing-twitter-with-matlab/). We tried to work through sarahmcole's [suggestions](https://hist3814o.slack.com/archives/C5PEMDU3V/p1500733113372538) for fixing the glitch with json2csv, but couldn't figure out the first part of the fix, concerning the formatting of the arrays. After four failed attempts to write a program that would fix the issue with the arrays and number each "tweet" we decided to call it quits. Because we were using MatLab I don't have the program the we (okay, he) wrote, but I do have the [before](https://github.com/catherinesupplecraig/HIST3814o/blob/master/search.json) and [after](https://github.com/catherinesupplecraig/HIST3814o/blob/master/search_fixed_final.JSON) versions of my .json file in my repository for safekeeping. 
+* I'm very interested in this kind of data analysis (as a communications student it's right up my alley) so I'll definitely be coming back to try the fix posted in our group #slack [here](https://hist3814o.slack.com/files/dr.graham/F6DEUCQUF/twarc_json_to_csv__exercise_5).
+
+### Exercise 6: OCR with Tesseract ###
+* I installed tesseract, imagemagick, and pdftk on my DH Box
+* I hit a snag using wget to get the correct page from the equity. While I figured out the command without any problems (all those hours struggling with wget earlier paid off, apparently) it was taking so long to dowload that DH Box kept timing out and asking me to log in, which caused me to have to start all over again. Eventually I figured out that for one page a rate of 20kb was probably lower than necessary (hopefully?) and I upped it quite a bit to make sure my command was going through quickly enough.
+* The second snag came when it was time to burst the file. I kept getting a ‘file not found’ error, and eventually realized (by running ls) that my wget command had given me a series of folders. including these folders in the command to burst is one solution, but I ended up just using the file manager to move the pdf to my orc-test folder, and everything worked perfectly from there. Not sure if there is room for improvement in my wget command 
+`wget -r --no-parent -w 2 --limit-rate=50khttp://collections.banq.qc.ca:8008/jrn03/equity/src/1957/07/04/83471_1957-07-04.pdf` or if this was an inevitable glitch?
+* The output I got from this exercise was hilariously bad, and it's in my repository [here](https://github.com/catherinesupplecraig/HIST3814o/blob/master/output.txt) for reference. 
+
+### Personal Fail ###
+I included this personal fail section on a whim last week, but I've decided to keep it, because I think documenting areas where human failure occurs in the process of doing a project is important. 
+* I actually made a lot of progress on my procrastination this week - I worked on the exercises or readings every day, and even though I'll still be submitting everything on Sunday night, I got a lot done during the week. Something I'm starting to realize is that you could basically spend an infinite amount of time on this stuff, and there comes a certain point where cutting your losses and moving on is probably for the best. 
+* An area where I struggled this week was with the interactive side of the course. I work in a job that requires a lot of collaboration, which is something I enjoy, and I'm usually among the first people in a class to raise my hand with a comment or question. Yet, for some reason, I'm finding this isn't translating very well in an online forum. Maybe it's because when it comes to writing I tend to approach things more in a more inward-facing way. Writing is my processing tool for dealing with pretty much any personal problem I encounter, so it always feels a bit personal for me. I wanted to make more of an effort to engage this week, since that's a piece of feedback I've received consistently for the past two weeks, but while I enjoy the functionality of hypothesis as a tool for marking up readings, the interactive part hasn't jivved with me too much. I'd like to improve this. I decided to leave my annotations for last this week so that I could let me thoughts about the readings marinate a little bit. I'm hoping that this will help me engage a little bit more. 
+* I definitely get the 'digital history can be fun' side of things - sitting on the couch and running through these exercises, especially when my boyfriend is following along and hitting the same roadblocks, is really enjoyable. I like chatting with him about what I'm doing, it's just a bit more difficult to feel inclined to get social in #slack. I could go on with my self-psychoanalysis about why I think this is, but ultimately all it comes down to is that I want and *need* to get better at this side of the course. Goal for next week!
 # Fail Log: Module 1, 2017-07-16 #
 
 ### Hypothesis ###

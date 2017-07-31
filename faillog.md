@@ -1,3 +1,35 @@
+# Fail Log: Module 3 - 2017-07-30
+
+### Exercise 1: Regular Expressions
+* My first reaction to looking through the steps of this exercise was extreme panic and fear
+* To begin, I used the terminal on my computer and the `curl` command to grab the Diplomatic Correspondence of the Republic of Texas file on located on archive.org [here](http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt)
+* Reminder to self: `curl` works in a similar way to `wget`
+* Before working through the sed commands for this exercise, I wanted to copy text from my texas.txt nano file in the terminal to RegExr so that I could test my expressions before trying them for real, but struggled with figuring out how to copy text from nano. I looked up the command in the [how-to-geek beginner’s guide to nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/), got confused by their use of the term "meta key", figured out that "alt" is usually the equivalent to meta on a mac, tried the command…and it didn’t work. I did some further googling (there were some tutorials that suggested changing the keyboard settings on your mac, but they were all quite out of date) On the upside, I brushed up on some of my nano commands by reading through the guide again. Productive fail? 
+* I ultimately solved the problem by saving my text as a markdown file and opening with sublime, then copying to RegExr
+* I struggled with every step of this exercise, and ended up watching the helpful video posted in our group slack to figure out where I was going wrong. I was able to solve a few issues on my own through trial and error, and felt pretty accomplished when things went right…only to be frustrated a second later when the command wouldn’t work.
+* I kept getting a weird error when putting in the command to replace the tilde with a space, which formatted as `sed -E -i.bak ’s/~/ /g’ index.txt` 
+* The command wouldn’t run, but instead of an error I’d just get a new line with `>` at the beginning. I was pretty sure my command was formatted correctly after looking at the example on the workbook and watching the video, but eventually ended up copying from the workbook and running it, which worked. 
+* When I compared the two commands they looked identical at first ([here’s a screenshot](https://github.com/catherinesupplecraig/HIST3814o/blob/master/Screen%20Shot%202017-07-30%20at%208.16.10%20PM.png)), but I then realized that instead of using an apostrope `'`, I'd been using a backtick `` `. Whoopsie!
+* I saved my history for this exercise [here](https://github.com/catherinesupplecraig/HIST3814o/blob/master/july30.md), and in doing so learned that when you save history from your own terminal, it saves everything you’ve ever done - handy, but could also become kind of long-winded. In any case, you can see all my trial and error. (Note - the first two lines of my history are irrelevant to this exercise, and are on there from something run in the past) 
+
+### Exercise 2: Open Refine
+* I used [OpenRefine](http://openrefine.org/) to clean up the data in my cleanedcorrespondance.csv
+* It took two attempts for me to successfully refine the table using clustering techniques - I had to start over about halfway through my first attempt because after I tried to use the "undo" function something went terribly terribly wrong.
+* I was able to use clustering to sort through my "sender" and "receiver" columns until I had around the indicated number of results remaining. 
+* I used the text facet to sort each column, and applied clustering techniques to refine the data. I played around with the different methods and keying functions and was able to get more data to merge. 
+* I uploaded my finished product as a csv to my github repistory [here](https://github.com/catherinesupplecraig/HIST3814o/blob/master/Module3-Exercise2.csv)
+* I used Connect The Dots to create a visualization of my cleaned data (when I tried to use Palladio as suggested I just got a blank page with three red dots. Not sure what that's about) and my finished product can be viewed [here](https://databasic.io/en/connectthedots/results/597e85ec7088b44d32a91f0a?submit=true)
+
+### Fail Log
+* Funny story - I normally write my fail log in dillinger.io and then merge my changes onto github, however, dillinger isn't working for me this evening (as in, I can't seem to connect to the site), meaning that I had to find another solution to write this.
+* I considered downloading my faillog.md file off of github, opening in nano and doing my writing there, but one of the things I like about dillinger is that it lets me see what I'm doing on the split screen, which helps reduce any formatting errors that might come up.
+* I did some googling and found StackEdit, which I'm using now. Unfortunately StackEdit doesn't allow you to import files directly from github, from what I could tell.
+* My solution for this was to copy the raw version of my failog from github into the editing window on StackEdit. Once I'm done here, I'll edit my github file and paste in the raw text from StackEdit directly into my faillog.md file on github. Hopefully it works!
+* Update: It didn't work. I kept getting an error fro StackEdit saying that my file couldn't be uploaded to github every time I tried... BUT dillinger.io is back online again :)
+
+### Personal Fail
+* This week's personal fail is all about motivation. Last week, I felt like I had dropped the ball on the interactive aspect of the course. I made a bold statement that I would do better this week and...I failed. I would not say that I've been more engaged this week than last week. It's so weird to me that the easiest part of the course, in terms of what I already know how to do (talk to other human beings, write, etc) has been the hardest for me so far. This week I'm going to attribute that to a dip in my motivation. I'm still really interested in what we're learning, and I'm enjoying the course as much as ever, but even though I was putting in the hours to get the course work done over the week, I felt like my productivity was lower. I didn't want to study - I wanted to go hang out with my friends and eat pizza and watch Dunkirk and go see La Machine and have drinks on a patio... and that's what I did instead of doing more annotations and just generally getting more engaged. Summer courses can be tough like that. I will say though, staying motivated in this course has been easier than in a lot of other classes I've taken in the past, probably because each week is a mystery and a challenge, and that's pretty thrilling stuff. I still really really want to get better at the interactive aspects of the course, so that's my continuing goal for the coming week.
+
 # Fail Log: Module 2 - 2017-07-23 #
 
 ### Exercise 1: The Dream Case ###
